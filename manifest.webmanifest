@@ -1,0 +1,14 @@
+{
+  "name": "Our Week Together",
+  "short_name": "Our Week",
+  "description": "A cozy weekly planner for two — dinners, to-dos, shopping, and favorite dishes.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#cdeffb",
+  "theme_color": "#61b243",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
