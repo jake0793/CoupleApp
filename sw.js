@@ -1,5 +1,5 @@
 /* Our Week Together — service worker: network-first for the app, cache fallback for offline */
-const CACHE = 'owt-v2';
+const CACHE = 'owt-v3';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(['./'])).then(() => self.skipWaiting()));
 });
